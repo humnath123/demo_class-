@@ -1,0 +1,16 @@
+import 'package:flutter/cupertino.dart';
+
+class democlass extends StatefulWidget {
+  @override
+  State<StatefulWidget> createState() {
+    return democlassstate();
+    // TODO: implement createStatement
+  }
+}
+
+class democlassstate extends State<democlass> {
+  @override
+  Widget build(BuildContext context) {
+    return Container(child: Text("Hello class sec D"));
+  }
+}
